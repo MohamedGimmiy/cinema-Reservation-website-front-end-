@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
+//import logo from './logo.svg';
+//import { LoginForm } from './containers/login';
+//import { SignupForm } from './containers/SignUp';
+//import { AdminDashboard } from './containers/Admin';
+//import { CarouselComponent } from './contasners/carosul';
+//import { DisplayMovies } from './containers/displayMovies';
+//import { AddMovie } from './containers/AddMovie';
+//import { AddScreen } from './containers/AddScreen';
+//import { GraphicalRepresentation } from './containers/graphicalRepresentation';
+ import { PageOFpages } from './pages/pageOfpages';
+ function App() {
+  return (  
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+       <PageOFpages />
+ 
+
+      {/* <LoginForm/> */}
+
+
+      {/* <AdminDashboard/> */}
+
+      {/* <SignupForm/> */}
+
+
+      {/* <CarouselComponent/> */}
+
+      {/* <DisplayMovies/> */}
+
+      {/* <AddMovie/> */}
+
+      {/* <AddScreen/> */}
+
+{/*       <GraphicalRepresentation/> 
+ */}
+      {/* <MovieInfo/> */}
+
     </div>
   );
 }

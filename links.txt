@@ -1,0 +1,3 @@
+https://github.com/leandrowd/react-responsive-carousel
+
+https://reactjs.org/docs/handling-events.html
